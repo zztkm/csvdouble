@@ -62,7 +62,7 @@ Flags:`)
 	}
 
 	if fs.NArg() < 1 {
-		fatal(errors.New("please specify csv file path. `excel2csv -h` for more details"))
+		fatal(errors.New("please specify csv file path. `csvdouble -h` for more details"))
 	}
 
 	filename := fs.Arg(0)
